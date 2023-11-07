@@ -19,9 +19,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={` bg-gray-50 text-gray-950 ${inter.className} `}>
-        <div className='bg-[#EC98D2] -z-10 absolute top-[-6rem] right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem]'></div>
-        <div className='bg-[#98A6EC] -z-10 absolute top-[-1rem] left-[15rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.7rem] md:left-[10rem] lg:left-[7rem] xl:left-[5rem]' ></div>
+      <body className={` bg-gray-50 text-gray-950 pt-28 sm:pt-36 h-[5000px] ${inter.className} `}>
+        <div className='bg-[#d8b7e7] -z-10 absolute top-[-6rem] right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem]'></div>
+        <div className='bg-[#8fc1c4] -z-10 absolute top-[-1rem] left-[15rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.7rem] md:left-[7rem] lg:left-[5rem] xl:left-[5rem]' ></div>
         <Header />
         {children}
         </body>
