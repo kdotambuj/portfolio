@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 function about() {
   return (
-    <motion.section className='max-w-[45rem] text-center mb-28 sm:mb-0 leading-8 '
+    <motion.section className='max-w-[45rem] text-center mb-28  leading-8 '
     initial = {{opacity:0,y:100}}
     animate = {{opacity:1,y:0}}
     transition={{
